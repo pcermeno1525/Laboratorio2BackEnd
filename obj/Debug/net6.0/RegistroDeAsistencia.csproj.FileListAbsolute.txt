@@ -1,0 +1,15 @@
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\bin\Debug\net6.0\RegistroDeAsistencia.exe
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\bin\Debug\net6.0\RegistroDeAsistencia.deps.json
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\bin\Debug\net6.0\RegistroDeAsistencia.runtimeconfig.json
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\bin\Debug\net6.0\RegistroDeAsistencia.dll
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\bin\Debug\net6.0\ref\RegistroDeAsistencia.dll
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\bin\Debug\net6.0\RegistroDeAsistencia.pdb
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\obj\Debug\net6.0\RegistroDeAsistencia.csproj.AssemblyReference.cache
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\obj\Debug\net6.0\RegistroDeAsistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\obj\Debug\net6.0\RegistroDeAsistencia.AssemblyInfoInputs.cache
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\obj\Debug\net6.0\RegistroDeAsistencia.AssemblyInfo.cs
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\obj\Debug\net6.0\RegistroDeAsistencia.csproj.CoreCompileInputs.cache
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\obj\Debug\net6.0\RegistroDeAsistencia.dll
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\obj\Debug\net6.0\ref\RegistroDeAsistencia.dll
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\obj\Debug\net6.0\RegistroDeAsistencia.pdb
+C:\Users\lhogan\Desktop\Curso Kinal 2021\BackEnd\prod\Laboratorio2\RegistroDeAsistencia\obj\Debug\net6.0\RegistroDeAsistencia.genruntimeconfig.cache
