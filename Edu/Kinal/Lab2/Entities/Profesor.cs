@@ -7,7 +7,7 @@ namespace RegistroDeAsistencia.Edu.Kinal.Lab2.Entities
         public string CUI { get; set; }
         public string Cargo { get; set; }
 
-        public Profesor()
+        public Profesor() : base()
         {
 
         }
@@ -19,20 +19,20 @@ namespace RegistroDeAsistencia.Edu.Kinal.Lab2.Entities
             this.Cargo = cargo;
         }
 
-        public override void TomarAsistencia()
+        public bool EliminarAsignatura(string asignatura)
         {
-            Console.WriteLine($"Asistencia Profesor: {this.Apellidos} {this.Nombres} con cargo: {this.Cargo}");
+            Console.WriteLine($"Se ha elminado la asignatura {this.Apellidos} {this.Nombres}");
+            return true;
         }
 
         public void ListarMisDatos(string identificador)
         {
-            Console.WriteLine($"Datos: UUID:{this.UUID}, Apellidos:{this.Apellidos}, Nombres:{this.Nombres}, Cargo {this.Cargo}"); 
+            Console.WriteLine($"{this.UUID} {this.Apellidos} {this.Nombres} {this.Cargo}");
         }
 
-        public bool EliminarAsignatura(string asignatura)
+        public override void TomarAsistencia()
         {
-            Console.WriteLine($"Se ha eliminado la asignatura {asignatura} del profesor Apellidos:{this.Apellidos} Nombres:{this.Nombres}"); 
-            return true;
+            Console.WriteLine($"Tomando Asistencia de {this.Apellidos} {this.Nombres}");
         }
     }
 }

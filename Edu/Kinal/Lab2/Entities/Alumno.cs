@@ -12,27 +12,27 @@ namespace RegistroDeAsistencia.Edu.Kinal.Lab2.Entities
 
         }
 
-        public Alumno(string uuid, string apellidos, string nombres, string email, string carne, int numeroCreditos)        
+        public Alumno(string uuid, string apellidos, string nombres, string email, string carne, int numeroCreditos)
             : base(uuid, apellidos, nombres, email)
         {
             this.Carne = carne;
             this.NumeroCreditos = numeroCreditos;
         }
 
-        public override void TomarAsistencia()
+        public bool EliminarAsignatura(string asignatura)
         {
-            Console.WriteLine($"Asistencia alumno: {this.Apellidos} {this.Nombres} con carné: {this.Carne}");            
+            Console.WriteLine($"Se ha eliminado la asignatura de {this.Apellidos} {this.Nombres}, Perdera la cantidad de creditos de {this.NumeroCreditos}");
+            return true;
         }
 
         public void ListarMisDatos(string identificador)
         {
-            Console.WriteLine($"Datos: UUID:{this.UUID}, Apellidos:{this.Apellidos}, Nombres:{this.Nombres}, Número de Créditos {this.NumeroCreditos}"); 
+            Console.WriteLine($"{this.UUID} {this.Apellidos} {this.Nombres} {this.NumeroCreditos}");
         }
 
-        public bool EliminarAsignatura(string asignatura)
+        public override void TomarAsistencia()
         {
-            Console.WriteLine($"Se ha eliminado la asignatura {asignatura} Apellidos:{this.Apellidos} Nombres:{this.Nombres}, perdera la cantidad de créditos {this.NumeroCreditos}"); 
-            return true;
+            Console.WriteLine($"Tomando Asistencia de {this.Apellidos} {this.Nombres}");
         }
     }
 }
